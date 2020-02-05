@@ -6,7 +6,7 @@
 *File: index.php
 */
 ?>
-<link href="h2/css/style.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
 <body>
 <header>
     <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
@@ -17,10 +17,10 @@
         <li>Hoofdstuk 2
             <ul>
                 <li>
-                    <a href="./h2/opdrachten/opdracht%202.1.php">Opdracht 2.1</a>
+                    <a href="./h2/opdracht%202.1.php">Opdracht 2.1</a>
                 </li>
                 <li>
-                    <a href="h2/opdracht_2-2.php">Opdracht 2.2</a>
+                    <a href="h2/opdracht2.2.php">Opdracht 2.2</a>
                 </li>
 
             </ul>

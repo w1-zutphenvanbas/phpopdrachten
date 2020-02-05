@@ -17,10 +17,10 @@
             <li>Hoofdstuk 2
                 <ul>
                     <li>
-                        <a href="../opdrachten/opdracht%202.1.php">Opdracht 2.1</a>
+                        <a href="opdracht 2.1.php">Opdracht 2.1</a>
                     </li>
                     <li>
-                        <a href="h2/opdracht_2-2.php">Opdracht 2.2</a>
+                        <a href="opdracht2.2.php">Opdracht 2.2</a>
                     </li>
                 </ul>
             </li>
