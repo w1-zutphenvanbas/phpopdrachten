@@ -7,6 +7,7 @@
 */
 ?>
 <!doctype HTML>
+<html>
 <head>
     Template
 </head>
@@ -27,6 +28,7 @@ $txt11="<br>";
 $txt12="is";
 $txt13="vind je niet";
 ?>
+
 <body>
 <header>
     <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
@@ -88,5 +90,6 @@ $txt13="vind je niet";
    
 </main>
 </body>
+</html>
 
 
