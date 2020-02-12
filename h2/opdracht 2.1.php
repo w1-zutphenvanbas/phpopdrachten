@@ -6,6 +6,11 @@
  *File: index.php
  */
 ?>
+<!doctype HTML>
+<html>
+<head>
+    template
+</head>
     <link href="../css/style.css" type="text/css" rel="stylesheet">
     <body>
     <header>
@@ -33,3 +38,4 @@
         </p>
     </main>
     </body>
+</html>

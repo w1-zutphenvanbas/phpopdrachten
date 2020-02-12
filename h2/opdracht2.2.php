@@ -6,6 +6,10 @@
 *File: opdracht2.2.php
 */
 ?>
+<!doctype HTML>
+<head>
+    Template
+</head>
 <link href="../css/style.css" type="text/css" rel="stylesheet">
 <?php
 $txt1="Hallo";
