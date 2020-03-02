@@ -6,6 +6,10 @@
 *File: index.php
 */
 ?>
+<!doctype HTML>
+<head>
+    Template
+</head>
 <link href="css/style.css" type="text/css" rel="stylesheet">
 <body>
 <header>
@@ -22,6 +26,17 @@
                 <li>
                     <a href="h2/opdracht2.2.php">Opdracht 2.2</a>
                 </li>
+                <li>Hoofdstuk 3
+                    <ul>
+                        <li>
+                            <a href="./h3/3.1.php">Opdracht 3.1</a>
+                        </li>
+                        <li>
+                            <a href="./h3/3.2.php">Opdracht 3.2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
             </ul>
         </li>
@@ -31,5 +46,6 @@
     <h2>Uitwerkingen</h2>
 </main>
 </body>
+
 
 

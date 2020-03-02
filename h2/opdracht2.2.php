@@ -9,7 +9,7 @@
 <!doctype HTML>
 <html>
 <head>
-    Template
+
 </head>
 <link href="../css/style.css" type="text/css" rel="stylesheet">
 <?php
@@ -47,6 +47,17 @@ $txt13="vind je niet";
 
             </ul>
         </li>
+    </ul>
+    <li>Hoofdstuk 3
+        <ul>
+            <li>
+                <a href="../h3/3.1.php">Opdracht 3.1</a>
+            </li>
+            <li>
+                <a href="../h2/opdracht2.2.php">Opdracht 2.2</a>
+            </li>
+        </ul>
+    </li>
     </ul>
 </aside>
 <main id="wrapper">
