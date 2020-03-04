@@ -9,11 +9,23 @@
   <footer>
     <?php
     echo $year;
-    ?>
-    <br>
-        <?php
     echo $name;
+    echo $hournow;
     ?>
+      <?php
+      if($hournow <= 5) {
+          echo $daypart = "Goedennacht";
+      }
+      else if($hournow > 5 && $hournow < 12){
+          echo $daypart = "Goedenochtend";
+      }
+      else if($hournow > 12 && $hournow <17){
+          echo $daypart = "Goedemiddag";
+      }
+      if($hournow > 17 && $hournow <24){
+        echo $daypart = "Goedenavond";
+      }
+      ?>
     </footer>
 </body>
 </html>

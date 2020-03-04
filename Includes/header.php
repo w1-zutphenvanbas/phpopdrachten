@@ -9,7 +9,7 @@
 <!doctype HTML>
 <html>
 <head>
-    <?php include '../../css/style.css'; ?>
+    <link href="Footer.php" rel="stylesheet" type="text/css">
 </head>
 </html>
 
