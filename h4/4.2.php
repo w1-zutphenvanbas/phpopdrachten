@@ -9,7 +9,7 @@
 <link href="../footer.css" rel="stylesheet" type="text/css">
 
 <?php
-include "Includes/header.php"
+include "Includes/header.php";
 ?>
 
 <?php
