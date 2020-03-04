@@ -16,13 +16,13 @@
       if($hournow <= 5) {
           echo $daypart = "Goedennacht";
       }
-      else if($hournow > 5 && $hournow < 12){
+      else if($hournow >=5 && $hournow <12){
           echo $daypart = "Goedenochtend";
       }
-      else if($hournow > 12 && $hournow <17){
+      else if($hournow >=12 && $hournow <17){
           echo $daypart = "Goedemiddag";
       }
-      if($hournow > 17 && $hournow <24){
+      if($hournow >=17 && $hournow <24){
         echo $daypart = "Goedenavond";
       }
       ?>

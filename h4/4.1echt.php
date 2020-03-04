@@ -17,6 +17,10 @@
                 <li>
                     <a href="../index.php">Terug</a>
                 </li>
+            </ul>
+        </li>
+    </ul>
+</aside>
 <main id="wrapper">
 <h2>Uitwerkingen</h2>
     </p>
