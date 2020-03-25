@@ -86,6 +86,6 @@ for($ages = 17; $ages > 0; $ages--) {
             $task7 .= "<p>In $years was ik $ages jaar oud</p>";
             break;
     }
-    $year--;
+    $years--;
 }
 ?>
