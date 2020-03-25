@@ -2,6 +2,7 @@
 $task2 = "Lancering in :";
 
 $teller = 19;
+//teller laten aflopen zodat er staat lancering in ...
 while($teller>=0){
     $task2 = $task2.$teller;
     if($teller > 0)
@@ -20,12 +21,14 @@ for ($teller =19; $teller>=0;$teller--)
         $task3 .= ",";
     }
 }
+
 $task4 = "";
 $teller = 1;
 while($teller <= 6){
     $task4 .= "<h$teller>Dit is de ". $teller. "e iteratie<h$teller>";
     $teller++;
 }
+//een iteratie in een tabel
 $task5 = "";
 $begin = "<table><tr>";
 $eind = "</table></tr>";
@@ -34,8 +37,10 @@ for($tel=1; $tel <= 10; $tel++)
     $task5 .= "<td>Dit is de ". $tel . "e iteratie</td>";
 }
 $task5 = $begin.$task5.$eind;
+//zorgt ervoor dat er een tabel omheen komt en een table row eromheen met daar tussenin de teller
 
 // Taak 6
+//een while loop die aftelt en bij de jaren 2003 en 2020 staat er iets extra
 $task6= '';
 $year = date('Y');
 $age = 17;
@@ -56,6 +61,7 @@ while($year >= 2003){
 }
 
 // Taak 7
+//een aftellende loop met de jaren en bij elke stage in me leven een tekst
 $task7 = '';
 $years = date('Y');
 for($ages = 17; $ages > 0; $ages--) {
