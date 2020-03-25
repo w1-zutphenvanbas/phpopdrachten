@@ -9,7 +9,7 @@
 <!doctype HTML>
 <html>
 <head>
-    <link href="Footer.php" rel="stylesheet" type="text/css">
+    <link href="../footer.css" rel="stylesheet" type="text/css">
 </head>
 </html>
 
