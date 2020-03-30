@@ -1,36 +1,61 @@
-<?php
-/**
- * User: Bas van Zutphen
- * Date: 27/3/2020
- * File: Opdracht 5.2
- */
-
-include "../Includes/header.php";
-include "../Includes/variabelen.php";
+<!--**
+* User: Bas van Zutphen
+* Date: 29-03-2020
+* Time: 17:30
+* File: uitschrijving.php
+*/-->
 ?>
-    <!--dit hebben we samen gemaakt in de les-->
-    <h3>Taak 1</h3>
-    <form action="form_data52.php" method="get">
-        <div class="well well-lg">
-            <label>Voor en Achternaam:</label>
-            <input name="fullname" type="text"><br><br>
-
-            <label>Reden uitschrijven:</label>
-            <select name="reason2quit">
-                <option value="Leraar niet fijn">leraar niet fijn</option>
-                <option value="Kut vakken">Kut vak</option>
-                <option value="Kut klas">kut klas</option>
-                <option value="php is leuk">php is leuk</option>
-            </select><br><br>
-
-            <label>Leerjaar:</label>
-            <input type="radio" name="year" value="1">1
-            <input type="radio" name="year" value="2">2
-            <input type="radio" name="year" value="3">3<br><br>
-
-            <input type="submit" name="verzend" value="verzend">
-        </div>
-    </form>
 <?php
-include "../Includes/footer.php";
-?><?php
+include "includes/header.php";
+?>
+</head>
+<body>
+<h1>Uitschijven Koning willem 1 college</h1>
+<hr>
+<table>
+    <tr>
+        <th>Voor en achternaam</th>
+        <!--Hier komt de opgegeven waarde in na het versturen-->
+        <td><?php echo $_GET["Voor-Achternaam"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven studentnummer-->
+        <th>Studentennummer</th>
+        <td><?php echo $_GET["Studentennummer"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven Datum van Uitschrijving-->
+        <th>Datum van uitschrijving</th>
+        <td><?php echo $_GET["DatumUitschrijving"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven reden van Uitschrijving-->
+        <th>Reden van uitschrijving</th>
+        <td><?php echo $_GET["Reden"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven leerjaar an Uitschrijving-->
+        <th>Leerjaar</th>
+        <td><?php echo $_GET["Leerjaar"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven klas-->
+        <th>Aanmeldden bij de succesklas</th>
+        <td><?php echo $_GET["succesklas"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven gegevens die verwijderd worden-->
+        <th>Verwijderen gegevens</th>
+        <td><?php echo $_GET["Verwijder"]; ?></td>
+    </tr>
+    <tr>
+        <!--Hier komt de opgegeven reden van Uitschrijving-->
+        <th>Reden van uitschrijving</th>
+    </tr>
+    <tr>
+        <td><?php echo $_GET["Bericht"]; ?></td>
+    </tr>
+</table>
+<?php
+include "includes/footer.php"
+?>
