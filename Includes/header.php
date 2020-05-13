@@ -6,11 +6,19 @@
  *File: 3.1.php
  */
 ?>
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
 <head>
+    <title>
+    </title>
     <link href="../footer.css" rel="stylesheet" type="text/css">
+
 </head>
-</html>
+<body>
+<header>
+    <h1> <a href="../index.php">Terug</a>|PHP-opdracht</h1>
+</header>
 
+<?php
 
+?>
